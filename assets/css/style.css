@@ -1,0 +1,151 @@
+/* Changing box sizing, padding, margin for whole page */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Deleted p tag and put font-size in body tag */
+body {
+    background-color: #d9dcd6;
+    font-size: 16px;
+}
+
+/* Styling the header of the document */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* Making the h1 of header bigger */
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Adding color to seo part of header */
+header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* Moving navigation bar to the right and styling it */
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* Getting rid of bullet points in list */
+header nav ul {
+    list-style-type: none;
+}
+
+/* Styling the navigation list items */
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Styling the links */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Creating large image that is used as background */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Positioning the text for h2 and p */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Positioning the text for h2 and p */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Positions the aside content section to the right of the webpage */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Styles and positions the aside section of the webpage */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Combined the benefit-lead, benefit-brand, and benefit-cost classes into the aside css selector */
+aside {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Combined all h3 into benefits class css selector */
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Combined all images in the benefits class into one css selector */
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* combined seo, orm, and smm together in new content class */
+article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* combined content images together */
+.content img {
+    max-height: 200px;
+}
+
+/* Styles header 2 tags on webpage */
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Styles footer tag on webpage */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Styles footer header 2 tag on webpage */
+footer h2 {
+    font-size: 20px;
+}
