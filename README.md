@@ -27,12 +27,3 @@ THEN I find a concise, descriptive title
 ```
 ## Mockup Image
 ![Mockup Demo Website](./assets/images/mockup.jpg)
-
-## HTML Code
-![HTML Code Part 1](./assets/images/html1.png)
-![HTML Code Part 2](./assets/images/html2.png)
-
-## CSS Code
-![CSS Code Part 1](./assets/images/css1.png)
-![CSS Code Part 2](./assets/images/css2.png)
-![CSS Code Part 3](./assets/images/css3.png)
